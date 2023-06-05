@@ -155,6 +155,36 @@ section .title::after {
   color: #fff;
 }
 
+/* ====================resume================== */
+
+#nav-menu .menu li button {
+  display: block;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+}
+
+#nav-menu .menu li button:hover {
+  color: #2253c8;
+}
+
+#nav-menu.sticky .menu li button:hover {
+  color: #fff;
+}
+
+#nav-menu.sticky .menu li button {
+  color: #fff;
+}
+#resume-button-1{
+  border: 1px solid red;
+  color:#fff;
+  background-color: #2253c8 ;
+  border-radius: 5px;
+}
+
+/* ================================================ */
 /* menu btn styling */
 .menu-btn {
   color: #fff;
@@ -237,9 +267,11 @@ section .title::after {
 .home .home-content .text-3 span {
   color: #2253c8;
   font-weight: 500;
+
 }
 
 .home .home-content a {
+  border: 4px solid red;
   display: inline-block;
   background: #2253c8;
   color: #fff;
@@ -256,7 +288,10 @@ section .title::after {
   color: #2253c8;
   background: none;
 }
-
+#resume-button-2{
+  /* border: 1px solid red; */
+  padding-top: -50px;
+}
 
 
 /* about section styling */
