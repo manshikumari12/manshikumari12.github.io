@@ -531,7 +531,7 @@ section .title::after {
 .repo-links {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 40%;
   height: 45px;
   margin-top: 5%;
  
